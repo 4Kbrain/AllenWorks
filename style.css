@@ -1,0 +1,152 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #09c; /* White to Coral gradient (＾◡＾)っ */
+  color: #333; /* Dark text color for contrast~ UwU */
+  overflow-x: hidden;
+}
+
+header {
+  padding: 1em;
+  width: 100%;
+}
+
+nav {
+  background-color: #333; /* Your requested elegant background color~ (//∇//) */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-radius: 10px; /* Adding a touch of softness with rounded corners~ ♡( ◡‿◡ ) */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.logo a > h1 {
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  justify-content: space-between;
+}
+
+nav a.navbar-item{
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px;
+}
+
+nav a:hover,
+nav a:active {
+  background-color: #555;
+  color: #FFC107;
+}
+
+.navbar-item{
+  text-decoration: none ;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+.navbar-item:hover,
+.navbar-item:active {
+  background-color: transparent ;
+  color: #ffc107;
+}
+
+.navbar-logo {
+  display: flex ;
+  align-items: center ;
+}
+
+.navbar-logo iconify-icon {
+  font-size: 2em;
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* nav end */
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card {
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #FFF;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transorm 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05)
+}
+
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  color: #3498db;
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.description {
+  display: none;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.card:hover .description {
+  display: block;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card a:active{
+  background-color: #fff;
+}
