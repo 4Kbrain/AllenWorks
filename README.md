@@ -12,6 +12,6 @@ Feel free to reach out to me for any collaboration or just to say hello:
 
 - Email: [chloeaubert6969@gmail.com](mailto:chloeaubert6969@gmail.com)
 - LinkedIn: [Aditya Dwi Nugroho]()
-- Instagram: [@allen.adityadn](https://instagram.com/allen.adityadn?igshid=YWYwM2I1ZDdmQQ==)
+- Instagram: [@allen.adityadn](https://instagram.com/allen.adityadn)
 
 Happy coding! 🚀
